@@ -19,7 +19,7 @@ main{
   margin: 10px;
   border: 2px solid lightgray;
   padding: 5px;
-  max-width: 840px;
+  /*max-width: 840px;*/
 }
 
 h1{
@@ -47,7 +47,7 @@ aside{
   text-align: center;
   position: relative;
   top: 12px;;
-  left: 200px;
+  left: 395px;
 }
 
 aside img{
@@ -74,4 +74,5 @@ a{
   color: rgb(207, 207, 211);
   background-color: rgb(42, 77, 106);
   border-radius: 7%;
+  max-width: 340px;
 }
