@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Inter:wght@500&display=swap');
+:root {
+    --primary-color: #151673;
+    --secondary-color: #4446BD;
+    --accent1-color: #8486f1;
+    --accent2-color: #aaabf6;
+
+    --heading-family: 'Arvo', serif;
+    --paragraph-family: 'Inter', sans-serif;
+}
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+body{
+    font-family: var(--paragraph-family);
+    max-width: 95%;
+    text-align: left;
+    font-size: 15.6px;
+    padding: 5px;
+    background-color: whitesmoke;
+}
+
+#logo-image {
+    width: 120px;
+    float: left;
+    position: absolute;
+    top: -3.5%;
+    left:auto
+}
+
+h1, h2, h3, h4, h5, h6 {
+    border: 0;
+    padding: 5px;
+    margin: 2px;
+    text-align: center;
+    color: var(--primary-color);
+    font-family: var(--paragraph-family);
+    font-size: 1.4rem;
+}
+
+p {
+    font-family: var(--paragraph-family);
+    padding: 5px;
+}
+
+section{
+    background-color: var(--accent2-color);
+    border: 1.5px solid var(--secondary-color);
+    padding: 3px;
+    margin: 5px;
+}
+
+header {
+    background-color: var(--accent1-color);
+    padding: 15px;
+    border: 2px solid black;
+    min-height: 40px;
+
+}
+
+a:link {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 5px;
+    margin: 2px;
+    clear: both;
+}
+
+a:visited {
+    color: var(--secondary-color);
+}
+
+nav{
+    text-align: center;
+}
+
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero{
+    position: relative;
+}
+
+h1{
+    position: absolute;
+    top: 4%;
+    left: 4.5%;
+    color: whitesmoke;
+    font-size: 2.5rem;
+    text-align: center;
+    width: 90%;
+    background-color: rgba(132, 134, 241, 0.8);
+    
+}
+
+#client{
+    width: auto;
+    height: 200px;
+    float: right;
+    margin: 3px;
+    border: 2px solid var(--secondary-color);
+}
+
+article{
+    position: absolute;
+    top: 23%;
+    left: 4.5%;
+    background-color: rgba(132, 134, 241, 0.8);
+    width: 90%;
+}
+
+.no-bg-link:link{
+    color: var(--primary-color);
+}
+
+.no-bg-link:visited {
+    color: var(--secondary-color);
+}
+
+.no-bg-link img{
+    width: 30px;
+    height: auto;
+    padding: 3px;
+    margin: 2px;
+}
+
+.representation img{
+    width: 400px;
+    height: auto;
+    margin: 5px
+}
+.representation{
+    text-align: center;
+}

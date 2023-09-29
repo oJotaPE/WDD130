@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Inter:wght@500&display=swap');
 :root {
-    --primary-color: #18444A;
-    --secondary-color: #98B39B;
-    --accent1-color: #8C3E36;
-    --accent2-color: #E8715E;
+    --primary-color: #151673;
+    --secondary-color: #4446BD;
+    --accent1-color: #8486F1;
+    --accent2-color: #8283BB;
 
     --heading-family: 'Arvo', serif;
     --paragraph-family: 'Inter', sans-serif;
@@ -35,6 +35,7 @@ h6 {
 
 h1{
     font-size: 3em;
+    color: whitesmoke;
 }
 
 header {
@@ -68,3 +69,7 @@ nav a:hover {
     background-color: var(--accent2-color);
 }
 
+img{
+    width: 500px;
+    height: auto;
+}
