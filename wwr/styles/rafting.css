@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Inter:wght@500&display=swap');
 :root {
     --primary-color: #151673;
-    --secondary-color: #4446BD;
+    --secondary-color: #4446bd;
     --accent1-color: #8486f1;
     --accent2-color: #aaabf6;
 
@@ -96,7 +96,7 @@ h1{
     font-size: 2.5rem;
     text-align: center;
     width: 90%;
-    background-color: rgba(132, 134, 241, 0.8);
+    background-color: /*rgba(132, 134, 241, 0.8);*/rgb(68, 70, 189, 0.8);
     
 }
 
@@ -112,8 +112,10 @@ article{
     position: absolute;
     top: 23%;
     left: 4.5%;
-    background-color: rgba(132, 134, 241, 0.8);
+    background-color:/*rgba(132, 134, 241, 0.8);*/ rgb(68, 70, 189, 0.8);
+    color: whitesmoke;
     width: 90%;
+    font-size: 1.1rem;
 }
 
 .no-bg-link:link{
