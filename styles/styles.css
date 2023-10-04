@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-/* Class Selectors */
+/*Main Selectors */
 nav{
   width: 95%;
   background-color: steelblue;
@@ -44,6 +44,8 @@ p{
   text-align: justify;
 }
 
+
+/*aside selectors*/
 aside{
   width: 340px;
   text-align: center;
