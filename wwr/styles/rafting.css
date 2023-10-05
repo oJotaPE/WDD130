@@ -47,6 +47,10 @@ p {
     padding: 5px;
 }
 
+.history {
+    margin: 20px;
+}
+
 section{
     background-color: var(--accent2-color);
     border: 1.5px solid var(--secondary-color);
@@ -102,7 +106,7 @@ h1{
 
 #client{
     width: auto;
-    height: 200px;
+    height: 20vh;
     float: right;
     margin: 3px;
     border: 2px solid var(--secondary-color);
