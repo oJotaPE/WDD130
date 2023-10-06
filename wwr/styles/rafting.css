@@ -63,7 +63,17 @@ header {
     padding: 15px;
     border: 2px solid black;
     min-height: 40px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
 
+}
+
+.grid-item-1{
+    grid-column: 1;
+}
+
+.grid-item-2 {
+    grid-column: 2;
 }
 
 a:link {
@@ -74,12 +84,19 @@ a:link {
     clear: both;
 }
 
+.flexbox-item{}
+.flexbox-item-1 {}
+.flexbox-item-2 {}
+.flexbox-item-3 {}
+.flexbox-item-4 {}
+
 a:visited {
     color: var(--secondary-color);
 }
 
 nav{
     text-align: center;
+    display: flex;
 }
 
 .hero img{
