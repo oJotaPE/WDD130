@@ -107,5 +107,5 @@ a{
 
 header, .grid, footer{
   /*max-width: 840px;*/
-  margin: o auto;
+  margin: 0 auto;
 }
