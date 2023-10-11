@@ -257,7 +257,8 @@ footer {
 }
 .footer-item-2 {
     grid-column: 3;
-    margin: 1px solid var(--primary-color);
+    color: 1px solid var(--primary-color);
+    margin: 1px;
 }
 
 .no-bg-link:link{
