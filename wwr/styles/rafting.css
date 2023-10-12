@@ -109,7 +109,7 @@ a:link {
 }
 
 a:visited {
-    color: var(--secondary-color);
+    color: black;
 }
 
 /*main*/
