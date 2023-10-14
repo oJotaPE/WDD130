@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <header>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>João Pedro Gomes| Quiz Form | WDD 130</title>
+        <meta name="description"content="this is a quiz form">
+        <meta name="author" content="João Pedro Gomes">
+        <link href="styles/quiz.css" rel="stylesheet">
+    </header>
+    <body>
+        <header>
+            <h1>How much do you know about web development?</h1>
+        </header>
+        <main>
+            <form action="">
+                <fieldset>
+                    <legend>Test yout knowledge</legend>
+                    <div>
+                        <label for="q1">What is the correct way to set a paragaph to have a bold text?</label>
+                        <input type="text" id="q1" name="q1"> <br>
+                    </div>
+                    <div>
+                        <label>what does the CSS selector ".class" mean?</label>
+                        <textarea name="q2" id="q2" cols="30" rows="5"></textarea>
+                    </div>
+                    <label for="q3">Where is added the DOCTYPE in an HTML document?</label>
+                    <select name="q3" id="q3"> DOCTYPE
+                        <option selected value="visual studio code">the header</option>
+                        <option value="atom">the footer</option>
+                        <option value="brackets">the head</option>
+                        <option value="sublime text">anywhere in the body</option>
+                        <option value="other">none of the ther options</option>
+                    </select> <br>
+                    <div>
+                        <label for="q4">What's the default font-size value for any html code? (px)</label>
+                        <input type="number" name="q4" id="q4">
+                    </div>
+
+                </fieldset>
+                <button>Finish Quiz</button>
+            </form>
+        </main>
+        <footer>
+            <p class="footer-paragraph">©️2023 | João Pedro Gomes | wdd130</p>
+        </footer>
+    </body>
+</html>
