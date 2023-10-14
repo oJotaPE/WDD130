@@ -87,6 +87,7 @@ h1 {
     padding: 1rem;
     font-size: 1.2rem;
     font-family: var(--input-family);
+    height: auto;
  }
 
  button:hover{
@@ -100,3 +101,18 @@ h1 {
     margin: 1rem;
     text-align: center;
  }
+
+ .form-item {
+    display: grid;
+    align-items: center;
+ }
+
+ .column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.2rem 0 ;
+ }
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: 0.2rem 0;
+}

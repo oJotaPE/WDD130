@@ -18,26 +18,34 @@
                 <fieldset>
                     <legend>Contact Information</legend>
                     <!--asking the name-->
-                    <label for="fullname">Full Name:</label>
-                    <input type="text" id="fullname" name="fullname"> <br>
+                    <div class="form-item column2">    
+                        <label for="fullname">Full Name:</label>
+                        <input type="text" id="fullname" name="fullname"> <br>
+                    </div>
                     <!--asking the email-->
-                    <label for="useremail">Email:</label>
-                    <input type="email" id="useremail" name="useremail"> <br>
+                    <div class="form-item column2">
+                        <label for="useremail">Email:</label>
+                        <input type="email" id="useremail" name="useremail"> <br>
+                    </div>
                 </fieldset>
                 <fieldset>
                     <legend>Questions</legend>
                     <!--first question-->
-                    <label for="browser">What is your favorite browser?</label>
-                    <select name="browser" id="browser">browser
-                        <option selected value="chrome">Chrome</option>
-                        <option value="firefox">firefox</option>
-                        <option value="edge">Edge</option>
-                        <option value="safari">Safari</option>
-                        <option value="other">Other</option>
-                    </select> <br>
+                   <div class="form-item column1">
+                        <label for="browser">What is your favorite browser?</label>
+                        <select name="browser" id="browser">browser
+                            <option selected value="chrome">Chrome</option>
+                            <option value="firefox">firefox</option>
+                            <option value="edge">Edge</option>
+                            <option value="safari">Safari</option>
+                            <option value="other">Other</option>
+                        </select> <br>
+                    </div>
                     <!--second question-->
-                    <label for="pet">Do you have a household pet?</label>
-                    <input type="checkbox" name="pet" id="pet"> <br>
+                    <div class="form-item column1">
+                        <label for="pet">Do you have a household pet?</label>
+                        <input type="checkbox" name="pet" id="pet"> <br>
+                    </div>
                     <!--third question-->
                     <label for="feedback">List the places you have lived</label>
                     <textarea name="feedback" id="feedback" cols="30" rows="5" placeholder="Stillwater Florida, Amsterdan Netherlands, São Paulo Brazil"></textarea> <br>
