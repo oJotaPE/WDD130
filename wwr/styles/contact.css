@@ -157,11 +157,6 @@ img{
     justify-content: center;
 }
 
-.grid-item-footer {
-    grid-column: 1 / 6;
-    grid-row: 8;
-}
-
 /*Style the flexbox*/
 .flex-container{
     display: flex;
