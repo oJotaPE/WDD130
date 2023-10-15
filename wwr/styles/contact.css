@@ -152,7 +152,7 @@ img{
 
 .grid-item-form {
     grid-column: 2 / 4 ;
-    grid-row: ;
+    grid-row: 1 / 3;
     align-items: center;
     justify-content: center;
 }
