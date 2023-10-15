@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us | João Pedro Gomes</title>
+        <meta name="description" content="this webpage provides some information about contacting and finding a clear channel for complanings with the Rafting fot Life Company">
+        <meta name="author" content="Joao Pedro Gomes">
+        <link href="styles/contact.css" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <header>
+            <img class="grid=item-1" id="logo-image" src="images/logo.svg" alt="the company logo">
+            <nav class="grid-item-2"> 
+                <a class="flex-item flexbox-item-1" href="https://ojotape.github.io/wdd130/">Home</a>
+                <a class="flex-item flexbox-item-2" href="about.html">About Us</a>
+                <a class="flex-item flexbox-item-3" href="trips.html">Trips</a>
+                <a class="flex-item flexbox-item-4" href="contact.html">Contact Us</a>
+            </nav>
+        </header>
+
+        <main>
+            <h1>Contact us</h1>
+            <!--Basic information about the company-->
+            <div class="grid-container">
+                <div class="grid-item-information">
+                    <h2 id="subtitle">Where you can find us</h2>
+                    <p>R. Evaristo da Veiga, 89 - Centro, Rio de Janeiro - RJ, 20031-040</p>
+                    <p>+55 24 98949-9894</p>
+                    <p>+55 24 91009-9954</p>
+                    <p>+55 24 92009-95594</p>
+                    <p>Raftingforlife.contact@email.com</p>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d918.7580211340985!2d-43.1788978!3d-22.9121874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1697280308892!5m2!1spt-BR!2sbr"
+                        width="250" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+             </div>
+            <!--Introducing the team-->
+                <div class="grid-item-employees">
+                    <h2>Our employees</h2>
+                    <div class="flex-container">
+                        <picture class="employees flex-picture flex-picture-1">
+                            <img src="images/team-video-call.jpg" alt="one of out happy employees">
+                            <figcaption>Carla, the head of our comunication team</figcaption>
+                        </picture>
+                        <picture class="employees flex-picture flex-picture-2 fle">
+                            <img src="images/team-schedule-.jpeg" alt="one of out happy employees">
+                            <figcaption>James, he leads our scheduling system</figcaption>
+                        </picture>
+                        <picture class="employees flex-picture flex-picture-3">
+                            <img src="images/team-finances.jpeg" alt="one of out happy employees">
+                            <figcaption>Nina, the chief of the finances department</figcaption>
+                        </picture>
+                        <picture class="employees flex-picture flex-picture-4">
+                            <img src="images/team-happy-team.jpg" alt="our happy team">
+                            <figcaption>Some of our employees</figcaption>
+                        </picture>
+                    </div>
+                </div>
+            <!--Building the form-->
+                <div class="grid-item-form">
+                    <form action="">
+                        <fieldset>
+                            <legend>Basic information</legend>
+                            <div>
+                                <label for="name">Full name</label> <br>
+                                <input type="text" id="name" name="name"> <br>
+                            </div>
+                            <div>
+                                <label for="emailadress">email</label> <br>
+                                <input type="email" id="emailadress" name="emailadress"> <br>
+                            </div>
+                        </fieldset>
+                        <Fieldset>
+                            <legend>The Message</legend>
+                            <div>
+                                <p>The purpose of the message</p>
+                                <input type="radio" name="purpose" id="purpose">
+                                <label for="purpose">General Inquiry</label> <br>
+                                <input type="radio" name="purpose" id="purpose">
+                                <label for="purpose">Reservation Question</label> <br>
+                                <input type="radio" name="purpose" id="purpose">
+                                <label for="purpose">Website suggestion</label> <br>
+                            </div>
+                            <div>
+                                <label for="message">Type in your message:</label> <br>
+                                <textarea name="message" id="message" cols="30" rows="7" placeholder="Hey there, I think..."></textarea>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="newsletter" id="newsletter">
+                                <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                            </div>
+                            <button>Send your message</button>
+                        </fieldset>
+                    </form>
+                </div>
+            </main>
+
+            <footer class="grid-item-footer">
+                <p class="footer-item-1">©️2023 🎫 Rafting for Life 🎫 João Pedro Gomes</p>
+                <nav class="footer-item-2">
+                    <a class="no-bg-link" href="https://facebook.com" target="_blank">
+                        <img src="images/facebook-logo.svg" alt="Facebook">
+                    </a>
+                    <a class="no-bg-link" href="https://twitter.com" target="_blank">
+                        <img src="images/twitter-logo.svg" alt="Twitterk">
+                    </a>
+                    <a class="no-bg-link" href="https://instagram.com" target="_blank">
+                        <img src="images/instagram-logo.svg" alt="instagram">
+                    </a>
+                </nav>
+            </footer>
+        </div>
+    </body>
+</html>
