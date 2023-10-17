@@ -44,6 +44,11 @@ h1 {
     font-family: var(--heading-family);
 }
 
+h1::after {
+    content: "-Quiz";
+    font-size: 0.8em;
+    color: gray;
+}
 form {
     width: 70%;
     margin: 0 auto;
@@ -89,6 +94,10 @@ textarea {
     font-size: 1.2rem;
     font-family: var(--input-family);
     height: auto;
+}
+
+#q4{
+    background-color: rgb(204, 211, 220);
 }
 
 button{
