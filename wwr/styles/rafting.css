@@ -39,6 +39,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
     font-family: var(--paragraph-family);
     padding: 5px;
+    text-align: justify;
 }
 /*header*/
 #logo-image {
@@ -102,14 +103,14 @@ nav {
 
 a:link {
     text-decoration: none;
-    color: whitesmoke;
+    color: var(--primary-color);
     padding: 5px;
     margin: 2px;
     clear: both;
 }
 
 a:visited {
-    color: black;
+    color: whitesmoke;
 }
 
 /*main*/
@@ -120,12 +121,13 @@ h1 {
     top: 4%;
     left: 4.5%;
     color: whitesmoke;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     text-align: center;
     width: 90%;
-    background-color:
-        /*rgba(132, 134, 241, 0.8);*/
-        rgb(68, 70, 189, 0.8);
+    /*background-color:
+        rgba(132, 134, 241, 0.8);
+        rgb(68, 70, 189, 0.8);*/
+    font-weight: bolder;
 }
 
 #trips-h1 {
@@ -133,7 +135,7 @@ h1 {
     top: 4%;
     left: 4.5%;
     color: whitesmoke;
-    font-size: 2.5rem;
+    font-size: 4.5rem;
     text-align: center;
     width: 90%;
     font-weight: bolder;
@@ -172,7 +174,7 @@ article {
     margin: 3px;
     border: 2px solid var(--secondary-color);
 }
-/*sections*/
+/*sections and grids*/
 section {
     background-color: var(--accent2-color);
     border: 1.5px solid var(--secondary-color);
@@ -213,12 +215,16 @@ section {
     grid-row: 1;
 }
 
-.representation img {
-    width: 150px;
+.representation img,
+.activity-detailing img {
+    width: 280px;
     height: auto;
     margin: 5px;
+    align-self: center;
+    justify-self: center;
 }
 
+/* gridding the about */
 .representation {
     text-align: center;
     display: grid;
@@ -226,7 +232,6 @@ section {
     grid-auto-rows: auto;
     align-items: center;
     justify-content: center;
-
 }
 
 .representation-item-1 {
@@ -255,12 +260,137 @@ section {
     grid-row: 2;
 }
 
+/* gridding the tittle */
+.activity-detailing {
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: auto;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        align-content: center;
+        grid-gap: 5px;
+        padding: auto;
+        justify-items: center;
+        align-items: center;
+
+        grid-column: 1/3;
+        grid-row: 1/4 ; 
+}
+.activity-detailing p {
+ width: 400px;
+ align-self: center;
+ margin: 5px;
+ padding: 3px;
+}
+
+.activity-detailing figure {
+    display: table;
+}
+
+.activity-detailing img {
+    border-radius: 5%;
+    width: 400px;
+    height: auto;
+}
+
+.activity-detailing img:hover {
+    width: 450px;
+    height: auto;
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px black;
+}
+
+.activity-detailing figcaption {
+    display: table-caption;
+    caption-side: top;
+    padding: 5px;
+    margin: 2px;
+    font-weight:600;
+}
+
+.activity-item-1 {
+    grid-column: 1;
+    grid-row: 1;
+}
+.activity-item-2 {
+    grid-column: 2;
+    grid-row: 1;
+}
+.activity-item-3 {
+    grid-column: 1;
+    grid-row: 2;
+}
+.activity-item-4 {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+.trips-table{
+    grid-column: 3;
+    grid-row: 2;
+}
+/* style the call to action */
+
+.call-action {
+    width: auto;
+    height: auto;
+    grid-column: 3;
+    grid-row: 1;
+    align-self: center;    
+}
+.call-action a {
+    background-color: var(--secondary-color);
+    color: whitesmoke;
+    align-self: center;
+    font-size: 2rem;
+    border: 2px solid var(--accent2-color);
+    border-radius: 30%;
+    padding: 0 auto;
+
+
+}
+
+.call-action a:hover {
+    font-size: 2.5rem;
+    color: rgb(201, 243, 252);
+}
+
+/* style the table */
+table{
+ border-collapse: collapse;
+ justify-content: center;
+ justify-items: center;
+}
+td, th {
+    padding: 7px;
+    border: 1.5px solid black;
+    background-color: rgb(227, 227, 227);
+}
+
+.num {
+    justify-self: right;
+    justify-items: right;
+    justify-content: right;
+}
 /*footer*/
 
 footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
+}
+caption{
+    margin:3px;
+    padding: 2px
 }
 
 .footer-item-1 {
