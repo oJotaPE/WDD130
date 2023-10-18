@@ -271,7 +271,7 @@ section {
         justify-items: center;
         align-content: center;
         grid-gap: 5px;
-        padding: auto;
+        padding: 2px;
         justify-items: center;
         align-items: center;
 
@@ -354,7 +354,7 @@ section {
     font-size: 2rem;
     border: 2px solid var(--accent2-color);
     border-radius: 30%;
-    padding: 0 auto;
+    padding: 0;
 
 
 }
@@ -398,7 +398,7 @@ caption{
 }
 .footer-item-2 {
     grid-column: 3;
-    color: 1px solid var(--primary-color);
+    border: 1px solid var(--primary-color);
     margin: 1px;
 }
 
