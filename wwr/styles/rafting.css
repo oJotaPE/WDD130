@@ -358,9 +358,9 @@ section {
     background-color: var(--secondary-color);
     color: whitesmoke;
     align-self: center;
-    font-size: 2rem;
+    font-size: 1rem;
     border: 2px solid var(--accent2-color);
-    border-radius: 30%;
+    border-radius: 3%;
     padding: 0;
 
 
